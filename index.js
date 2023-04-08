@@ -1,9 +1,9 @@
-    // let allows us to reassign variables, unlike const
-    let interestRate = 0.3;
-    interestRate = 1;
-    console.log(interestRate);
+    let name = "Sandy";
+    let age = 34;
+    let isApproved = false;
+    let firstName = undefined;
+    let selectedColor = "brown";
 
-        // Results in uncaught TypeError 
-        const interestRateOne = 0.3;
-        interestRateOne = 1;
-        console.log(interestRateOne);
+    console.log(age);
+    console.log(selectedColor);
+    console.log(name);
