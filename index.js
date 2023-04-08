@@ -1,6 +1,10 @@
-function greet(fistName, lastName ){
-    console.log("Hello " + name);
+function greet(fistName, lastName){
+    console.log("Hello " + fistName + " " + lastName);
 }
 
-greet(); //HelloUndefined 
+function square(number){
+    return number * number;
+}
+
 greet("Sandy", "Woods");
+console.log(square(8));
